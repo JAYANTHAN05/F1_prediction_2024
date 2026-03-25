@@ -78,7 +78,7 @@ driver_wet_performance = {
 qualifying_2025["WetPerformanceFactor"] = qualifying_2025["Driver"].map(driver_wet_performance)
 qualifying_2025["CleanAirRacePace (s)"] = qualifying_2025["Driver"].map(clean_air_race_pace)
 
-API_key="e1913d37fd570efdadd4d6e808d3bbdd"
+API_key="your_actual_key"
 lat,lon=24.4672, 54.6031 
 weather_url=f"http://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={API_key}&units=metric"
 response=requests.get(weather_url)
